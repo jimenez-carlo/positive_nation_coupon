@@ -1,6 +1,8 @@
 @extends('layouts.landing')
 @section('content')
+<!-- /.search form -->
 <section id="page" class="container mBtm-50">
+    
     <div class="row">
         <div class="col-sm-12 clearfix mTop-30">
             <div class="row">

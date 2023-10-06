@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/welcome', function () {
     return view('welcome');
 });
 Route::get('/cart', function () {
@@ -46,7 +46,7 @@ Route::get('/index', function () {
 Route::get('/registration', function () {
     return view('registration');
 });
-Route::get('/', function () {
+Route::get('/result', function () {
     return view('results');
 });
 Route::get('/submit', function () {
@@ -54,4 +54,13 @@ Route::get('/submit', function () {
 });
 Route::get('/untitled', function () {
     return view('Untitled-1');
+});
+Route::get('/login', function () {
+    return view('login');
+});
+Route::get('login', function () {
+    return view('login');
+});
+Route::get('register', function () {
+    return view('register');
 });
